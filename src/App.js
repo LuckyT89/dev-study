@@ -5,12 +5,12 @@ function App() {
 
   let posts = [
     {
-      prompt: "Create a class and make an instance of that class.",
-      imagePath: "ruby1.png"
+      prompt: "Create a variable and assign it a value.",
+      imagePath: "variables1.png"
     },
     {
-      prompt: "This is the second post",
-      imagePath: "path to second image"
+      prompt: "Show how to use string interpolation and concatenation.",
+      imagePath: "interpolation1.png"
     }
   ]
 
