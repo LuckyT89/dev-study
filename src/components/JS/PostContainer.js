@@ -1,7 +1,10 @@
 import '../CSS/PostContainer.css';
 import Post from './Post';
 
-function PostContainer() {
+function PostContainer({ posts }) {
+
+    console.log(posts);
+
     return (
         <div className='post-container'>
             This is the post container
