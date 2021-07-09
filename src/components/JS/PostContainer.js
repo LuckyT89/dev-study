@@ -5,13 +5,12 @@ function PostContainer({ posts }) {
 
     console.log(posts);
 
-    // const posts = posts.map((post) => <Post />)
+    const postCards = posts.map((post) => <Post key={post.id} prompt={post.prompt} imagePath={post.imagePath} />)
 
     return (
         <div className='post-container'>
             This is the post container
-            <Post prompt="first prompt" imagePath="first path" />
-            <Post prompt="second prompt" imagePath="second path" />
+            {postCards}
         </div>
     );
 }

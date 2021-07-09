@@ -6,7 +6,7 @@ function App() {
   let posts = [
     {
       id: 1,
-      prompt: "This is the first post",
+      prompt: "This is the first post!!!!!",
       imagePath: "path to first image"
     },
     {
