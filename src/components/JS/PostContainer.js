@@ -9,7 +9,6 @@ function PostContainer({ posts }) {
 
     return (
         <div className='post-container'>
-            This is the post container
             {postCards}
         </div>
     );
