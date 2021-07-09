@@ -5,12 +5,10 @@ function App() {
 
   let posts = [
     {
-      id: 1,
       prompt: "Create a class and make an instance of that class.",
       imagePath: "ruby1.png"
     },
     {
-      id: 2,
       prompt: "This is the second post",
       imagePath: "path to second image"
     }
