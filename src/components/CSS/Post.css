@@ -1,8 +1,12 @@
 div.post {
     border: 1px solid gray;
-    width: 500px;
+    width: 900px;
     padding: 30px;
     margin: 30px auto;
     text-align: center;
     border-radius: 20px;
+}
+
+div.post img {
+    width: 100%;
 }

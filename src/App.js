@@ -6,8 +6,8 @@ function App() {
   let posts = [
     {
       id: 1,
-      prompt: "This is the first post!!!!!",
-      imagePath: "path to first image"
+      prompt: "Create a class and make an instance of that class.",
+      imagePath: "ruby1.png"
     },
     {
       id: 2,

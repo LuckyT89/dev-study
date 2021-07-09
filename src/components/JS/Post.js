@@ -4,7 +4,7 @@ function Post({ prompt, imagePath }) {
     return (
         <div className='post'>
             <p>{prompt}</p>
-            <p>{imagePath}</p>
+            <img src={`img/${imagePath}`} alt='Code solution' />
         </div>
     );
 }
