@@ -1,4 +1,6 @@
+import { Switch, Route } from 'react-router-dom';
 import './App.css';
+import Nav from './components/JS/Nav';
 import PostContainer from './components/JS/PostContainer';
 
 function App() {
@@ -45,7 +47,18 @@ function App() {
   return (
     <div className="App">
       <h1>Dev Study</h1>
-      <PostContainer posts={posts}/>
+      <Nav />
+
+      <Switch>
+        <Route exact path='/'>
+          <PostContainer posts={posts}/>
+        </Route>
+
+        <Route exact path='/study'>
+          <h2>Study Mode!!!</h2>
+        </Route>
+      </Switch>
+
     </div>
   );
 }
