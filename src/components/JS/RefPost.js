@@ -1,6 +1,6 @@
 import '../CSS/Post.css';
 
-function Post({ prompt, imagePath }) {
+function RefPost({ prompt, imagePath }) {
     return (
         <div className='post'>
             <p>{prompt}</p>
@@ -9,4 +9,4 @@ function Post({ prompt, imagePath }) {
     );
 }
 
-export default Post;
+export default RefPost;

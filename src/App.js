@@ -1,7 +1,7 @@
 import { Switch, Route } from 'react-router-dom';
 import './App.css';
 import Nav from './components/JS/Nav';
-import PostContainer from './components/JS/PostContainer';
+import RefPostContainer from './components/JS/RefPostContainer';
 
 function App() {
 
@@ -51,7 +51,7 @@ function App() {
 
       <Switch>
         <Route exact path='/'>
-          <PostContainer posts={posts}/>
+          <RefPostContainer posts={posts}/>
         </Route>
 
         <Route exact path='/study'>
