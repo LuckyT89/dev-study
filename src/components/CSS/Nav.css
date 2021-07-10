@@ -1,0 +1,10 @@
+div.nav {
+    text-align: center;
+}
+
+div.nav a {
+    color: black;
+    font-family: arial;
+    font-size: 20px;
+    margin: 10px 40px;
+}

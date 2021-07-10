@@ -47,7 +47,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Dev Study</h1>
       <Nav />
 
       <Switch>
