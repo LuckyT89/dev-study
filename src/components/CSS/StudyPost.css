@@ -9,10 +9,17 @@ div.study-post {
 div.study-post img {
     width: 100%;
 }
+div.study-post img.hide {
+    display: none;
+}
 
 div.study-post p {
     font-size: 20px;
     font-family: arial;
     text-align: left;
     padding: 10px;
+}
+
+div.study-post button {
+    margin-bottom: 30px;
 }

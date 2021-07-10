@@ -2,6 +2,11 @@ div.nav {
     text-align: center;
 }
 
+div.nav {
+    font-family: arial;
+    font-size: 30px;
+}
+
 div.nav a {
     color: black;
     font-family: arial;

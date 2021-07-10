@@ -19,7 +19,7 @@ function StudyPostContainer({ posts }) {
     return (
         <div className='study-post-container'>
             <StudyPost post={posts[randomIndex]} />
-            <button onClick={handleClick} >Next</button>
+            <button className='next-btn' onClick={handleClick} >Next</button>
         </div>
     );
 }
