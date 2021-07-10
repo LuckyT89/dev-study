@@ -1,0 +1,8 @@
+div.study-post-container button {
+    margin: auto;
+    display: block;
+    width: 150px;
+    height: 50px;
+    background-color: lightskyblue;
+    font-size: 18px;
+}
