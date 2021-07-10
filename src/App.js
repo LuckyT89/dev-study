@@ -56,8 +56,7 @@ function App() {
         </Route>
 
         <Route exact path='/study'>
-          <h2>Study Mode!!!</h2>
-          <StudyPostContainer />
+          <StudyPostContainer posts={posts} />
         </Route>
       </Switch>
 

@@ -1,10 +1,13 @@
 import '../CSS/StudyPost.css';
 
-function StudyPost() {
+function StudyPost({ post }) {
+
+    console.log(`Post component received: ${post}`);
+
     return (
         <div className='study-post'>
-            <p>Testing</p>
-            This is the study post
+            <p>{post.prompt}</p>
+            <img src={`img/${post.imagePath}`} alt='Code solution' />
         </div>
     );
 }
