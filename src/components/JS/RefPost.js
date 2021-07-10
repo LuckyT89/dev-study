@@ -1,8 +1,8 @@
-import '../CSS/Post.css';
+import '../CSS/RefPost.css';
 
 function RefPost({ prompt, imagePath }) {
     return (
-        <div className='post'>
+        <div className='ref-post'>
             <p>{prompt}</p>
             <img src={`img/${imagePath}`} alt='Code solution' />
         </div>

@@ -1,4 +1,4 @@
-div.post {
+div.ref-post {
     border: 1px solid gray;
     width: 900px;
     padding: 30px;
@@ -6,11 +6,11 @@ div.post {
     text-align: center;
 }
 
-div.post img {
+div.ref-post img {
     width: 100%;
 }
 
-div.post p {
+div.ref-post p {
     font-size: 20px;
     font-family: arial;
     text-align: left;

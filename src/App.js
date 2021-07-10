@@ -2,6 +2,7 @@ import { Switch, Route } from 'react-router-dom';
 import './App.css';
 import Nav from './components/JS/Nav';
 import RefPostContainer from './components/JS/RefPostContainer';
+import StudyPostContainer from './components/JS/StudyPostContainer';
 
 function App() {
 
@@ -56,6 +57,7 @@ function App() {
 
         <Route exact path='/study'>
           <h2>Study Mode!!!</h2>
+          <StudyPostContainer />
         </Route>
       </Switch>
 
