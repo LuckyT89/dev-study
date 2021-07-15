@@ -43,6 +43,66 @@ function App() {
       prompt: "Create a method and declare some variables both inside and outside the method. Show how scope determines which variables can be accessed from different locations in the program.",
       imagePath: "9scope1.png"
     },
+    {
+      prompt: "Show how to use the bang operator (!) to determine if something is truthy or falsey.",
+      imagePath: "10truthy1.png"
+    },
+    {
+      prompt: "Show how to use the And and Or boolean operators.",
+      imagePath: "11boolean1.png"
+    },
+    {
+      prompt: "Show how to use the comparison operators.",
+      imagePath: "12boolean1.png"
+    },
+    {
+      prompt: "Write an if statement.",
+      imagePath: "13conditional1.png"
+    },
+    {
+      prompt: "Write a case statement.",
+      imagePath: "14conditional2.png"
+    },
+    {
+      prompt: "Write a loop that runs 10 times. Show how you can also do this without a counter using the times method.",
+      imagePath: "15looping1.png"
+    },
+    {
+      prompt: "Write both a while loop and an until loop that runs 10 times.",
+      imagePath: "16looping2.png"
+    },
+    {
+      prompt: "Create an array of items. Show how to add new items both at the end of the array and at the beginning of the array. ",
+      imagePath: "17arrays1.png"
+    },
+    {
+      prompt: "Create an array of items. Show how to remove items from both the end and the beginning of the array.",
+      imagePath: "18arrays2.png"
+    },
+    {
+      prompt: "Create an array of items. Show how to access some of the different items in the array and how to look up the index of a specific item. ",
+      imagePath: "19arrays3.png"
+    },
+    {
+      prompt: "Create an array of numbers. Show how to use methods to sort the array, reverse the array, show if a specific number is included in the array, and show the size of the array.",
+      imagePath: "20arrays4.png"
+    },
+    {
+      prompt: "Show how to use the each method and the map/collect method to iterate through an array.",
+      imagePath: "21iteration1.png"
+    },
+    {
+      prompt: "Show how to use the all, none, any, and include boolean methods on an array.",
+      imagePath: "22iteration2.png"
+    },
+    {
+      prompt: "Show how to use the select, detect/find, and reject methods on an array. ",
+      imagePath: "23iteration3.png"
+    },
+    {
+      prompt: "Show how to sort an array. ",
+      imagePath: "24iteration4.png"
+    }
   ]
 
   return (
