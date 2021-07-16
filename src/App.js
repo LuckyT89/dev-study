@@ -72,7 +72,7 @@ function App() {
       imagePath: "16looping2.png"
     },
     {
-      prompt: "Create an array of items. Show how to add new items both at the end of the array and at the beginning of the array. ",
+      prompt: "Create an array of items. Show how to add new items both at the end of the array and at the beginning of the array.",
       imagePath: "17arrays1.png"
     },
     {
@@ -80,7 +80,7 @@ function App() {
       imagePath: "18arrays2.png"
     },
     {
-      prompt: "Create an array of items. Show how to access some of the different items in the array and how to look up the index of a specific item. ",
+      prompt: "Create an array of items. Show how to access some of the different items in the array and how to look up the index of a specific item.",
       imagePath: "19arrays3.png"
     },
     {
@@ -96,12 +96,28 @@ function App() {
       imagePath: "22iteration2.png"
     },
     {
-      prompt: "Show how to use the select, detect/find, and reject methods on an array. ",
+      prompt: "Show how to use the select, detect/find, and reject methods on an array.",
       imagePath: "23iteration3.png"
     },
     {
-      prompt: "Show how to sort an array. ",
+      prompt: "Show how to sort an array.",
       imagePath: "24iteration4.png"
+    },
+    {
+      prompt: "Create a hash using string keys, symbol keys, and using JSON style. Retrieve a value from each one.",
+      imagePath: "25hashes1.png"
+    },
+    {
+      prompt: "Create a hash and check if a specific key exists. Print one message if it does and another if it does not.",
+      imagePath: "26hashes2.png"
+    },
+    {
+      prompt: "Create a hash. Then update the value of one of the keys and also create a new key with a value.",
+      imagePath: "27hashes3.png"
+    },
+    {
+      prompt: "Show that you can create and manipulate nested data structures.",
+      imagePath: "28hashes4.png"
     }
   ]
 
