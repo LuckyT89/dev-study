@@ -100,24 +100,48 @@ function App() {
       imagePath: "23iteration3.png"
     },
     {
-      prompt: "Show how to sort an array.",
-      imagePath: "24iteration4.png"
-    },
-    {
       prompt: "Create a hash using string keys, symbol keys, and using JSON style. Retrieve a value from each one.",
-      imagePath: "25hashes1.png"
+      imagePath: "24hashes1.png"
     },
     {
       prompt: "Create a hash and check if a specific key exists. Print one message if it does and another if it does not.",
-      imagePath: "26hashes2.png"
+      imagePath: "25hashes2.png"
     },
     {
       prompt: "Create a hash. Then update the value of one of the keys and also create a new key with a value.",
-      imagePath: "27hashes3.png"
+      imagePath: "26hashes3.png"
     },
     {
       prompt: "Show that you can create and manipulate nested data structures.",
-      imagePath: "28hashes4.png"
+      imagePath: "27hashes4.png"
+    },
+    {
+      prompt: "Create a class with an instance method. Create an instance of the class and call the method.",
+      imagePath: "28classes1.png"
+    },
+    {
+      prompt: "Create a class with a setter and getter method. Create an instance and use these methods to create and display an instance variable. ",
+      imagePath: "29classes2.png"
+    },
+    {
+      prompt: "Make a class with getter and setter methods created with attribute reader and writer macros. Then replace these with a single attribute accessor macro.",
+      imagePath: "30classes3.png"
+    },
+    {
+      prompt: "Create a class with an initialize method and create an instance of the class. ",
+      imagePath: "31classes4.png"
+    },
+    {
+      prompt: "Show how to use the self keyword. ",
+      imagePath: "32self1.png"
+    },
+    {
+      prompt: "Create a class with a class variable and class method.",
+      imagePath: "33classes1.png"
+    },
+    {
+      prompt: "Make a class with private methods.",
+      imagePath: "34private1.png"
     }
   ]
 
