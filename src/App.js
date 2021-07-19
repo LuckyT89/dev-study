@@ -142,7 +142,51 @@ function App() {
     {
       prompt: "Make a class with private methods.",
       imagePath: "34private1.png"
-    }
+    },
+    {
+      prompt: "Create a class with a class variable and class method that can return a list of all instances that have been created.",
+      imagePath: "35advanced1.png"
+    },
+    {
+      prompt: "Create a class with a class variable and class method that can return a list of all instances that have been created. Then add a class method that can find a specific class instance by name.",
+      imagePath: "36advanced2.png"
+    },
+    {
+      prompt: "Create a class with a custom constructor method.",
+      imagePath: "37advanced3.png"
+    },
+    {
+      prompt: "Create two classes that have a belongs to relationship.",
+      imagePath: "38relationships1.png"
+    },
+    {
+      prompt: "Create two classes that have a has many/belongs to relationship.",
+      imagePath: "39relationships2.png"
+    },
+    {
+      prompt: "Create three classes to show a has many through relationship.",
+      imagePath: "40relationships3.png"
+    },
+    {
+      prompt: "Make a class that inherits from another.",
+      imagePath: "41inheritance1.png"
+    },
+    {
+      prompt: "Create a module with both instance methods and class methods that other classes can use.",
+      imagePath: "42modules1.png"
+    },
+    {
+      prompt: "Show how to use the super keyword to add functionality to a method of a child class.",
+      imagePath: "43super1.png"
+    },
+    {
+      prompt: "Show how to use keyword arguments and also how to use them for mass assignment.",
+      imagePath: "44keywords1.png"
+    },
+    {
+      prompt: "Show how to set up a class that can be initialized with an unkown number of attributes.",
+      imagePath: "45meta1.png"
+    },
   ]
 
   return (
